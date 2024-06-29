@@ -1,4 +1,5 @@
-class item:
+# CONSTRUCTORS
+class Item:
     def __init__(self, name, price, quantity) -> None:
         self.name = name
         self.price = price
@@ -8,10 +9,10 @@ class item:
     def calculate_total_length(self):
          return self.price * self.quantity
     
-item1 = item("laptop", 100, 3)
+item1 = Item("laptop", 100, 3)
 
 
-item2 = item("car", 1000, 5)
+item2 = Item("car", 1000, 5)
 
 print(item1.calculate_total_length())
 

@@ -69,7 +69,7 @@ class Phone(Item):
         #Phone.all.append()     # pass is USEd BECAUSE IM NOT USING ANY METHOD OR FUNCTION YET
 
         def __repr__(self) -> str:
-            return f"{self.__class__.__name__}('{self.name}', {self.price}, {self.quantity})"
+            return f"{self.__class__.__name__}('{self.name}', {self.__price}, {self.quantity})"
             # print(item.all)
 
 

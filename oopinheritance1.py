@@ -68,7 +68,7 @@ class Phone(Item):
          #Phone.all.append() REMOVED # pass is USEd BECAUSE IM NOT USING ANY METHOD OR FUNCTION YET
 
         def __repr__(self) -> str:
-            return f"('{self.name}', {self.price}, {self.quantity})"
+            return f"('{self.name}', {self.__price}, {self.quantity})"
             # print(item.all)
 
 

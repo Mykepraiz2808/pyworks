@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../darttest"
+		}
+	],
+	"settings": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
